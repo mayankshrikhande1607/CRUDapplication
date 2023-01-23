@@ -1,0 +1,73 @@
+{
+  "data": [
+    {
+      "name": "gaurav shrikhande",
+      "phone": "87954621",
+      "id": 11
+    },
+    {
+      "name": "sangeeta  Shrikhande",
+      "phone": "8103226211",
+      "id": 13
+    },
+    {
+      "name": "sangeeta bai Shrikhande",
+      "phone": "7067601206",
+      "id": 14
+    }
+  ],
+  "signup": [
+    {
+      "firstname": "mayank shrikhande",
+      "lastname": "shrikhande",
+      "email": "mayank@gmail.com",
+      "password": "Msk@19",
+      "id": 1
+    },
+    {
+      "firstName": "Mayank",
+      "lastName": "Shrikhande",
+      "email": "mayank@gmail.com",
+      "password": "Msk@1999",
+      "id": 2
+    },
+    {
+      "firstName": "gaurav ",
+      "lastName": "Shrikhande",
+      "email": "gaurav@gmail.com",
+      "password": "gsk@1999",
+      "id": 3
+    },
+    {
+      "firstName": "harshal",
+      "lastName": "choudhary",
+      "email": "harshal@gmail.com",
+      "password": "Hc@1999",
+      "id": 4
+    },
+    {
+      "firstName": "Harshal ",
+      "lastName": "Choudhary",
+      "email": "harshal@gmail.com",
+      "password": "Hc@1999",
+      "id": 5
+    },
+    {
+      "firstName": "sanjay",
+      "lastName": "Shrikhande",
+      "email": "sanjay@gmail.com",
+      "password": "Ss@1999",
+      "id": 6
+    },
+    {
+      "email": "mayank@gmail.com",
+      "password": "dfdffdfk",
+      "id": 7
+    },
+    {
+      "email": "mayank@gmail.com",
+      "password": "Msk@1999",
+      "id": 8
+    }
+  ]
+}

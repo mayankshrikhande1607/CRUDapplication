@@ -1,0 +1,38 @@
+<div class="outercontainer">
+<form  [formGroup]="signupForm" (ngSubmit) = 'signup()' class="form-box">
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <mat-form-field class="example-full-width" >
+        <mat-label> <b> User Name </b></mat-label>
+        <input matInput type="text" formControlName="username" placeholder="Enter First Name"> 
+       </mat-form-field>
+
+      <mat-form-field class="example-full-width" >
+      <mat-label> <b> First Name </b></mat-label>
+      <input matInput type="text" formControlName="first_name" placeholder="Enter First Name"> 
+     </mat-form-field>
+
+     <mat-form-field class="example-full-width" >
+      <mat-label> <b> Last Name </b></mat-label>
+      <input matInput type="text" formControlName="last_name" placeholder="Enter Last name">
+     </mat-form-field>
+
+     <mat-form-field class="example-full-width" >
+      <mat-label> <b> Email </b></mat-label>
+      <input matInput type="text"  formControlName="email" placeholder="Enter Email">
+     </mat-form-field>
+
+     <mat-form-field class="example-full-width" >
+      <mat-label> <b> Password </b></mat-label>
+      <input matInput  type="password" formControlName="password" placeholder="Enter Password">
+     </mat-form-field>
+
+      <div class="clearfix">
+        <button type="button"   class="cancelbtn">Cancel</button>
+        <button type="submit" [disabled] = 'signupForm.invalid'  class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>

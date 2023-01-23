@@ -1,0 +1,48 @@
+<html>
+<head>
+<style>
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
+.submit {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+</style>
+</head>
+<body>
+<button routerLink='' mat-raised-button color="warn">logout</button>
+<h2>The Demo data</h2>
+
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>number</th>
+  </tr>
+  <tr *ngFor="let Data of Datas">
+    <td>{{Data.name}}</td>
+    <td>{{Data.phone}}</td>
+    <a [routerLink]="['/admin/edit-data/',Data.id,'edit' ]" class="btn">Edit</a>
+    <button mat-raised-button color="warn" (click)='prodectDel(Data.id)' >Delete</button>
+  </tr>
+</table>
+<br>
+<a routerLink='/admin/add-data' class="submit">submit</a>
+
+</body>
+</html>

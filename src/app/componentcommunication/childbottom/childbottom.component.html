@@ -1,0 +1,5 @@
+<p>childbottom works!</p>
+<p> this data comes from parent -- {{itme}} </p>
+
+<input type="text" #box>
+<button (click)="childDataEvent.emit(box.value)">send this value to parent</button>

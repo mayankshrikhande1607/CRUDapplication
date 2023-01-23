@@ -1,0 +1,16 @@
+<div class="container">
+    <h1>Demo form</h1>
+    <form [formGroup]='form' (ngSubmit) = 'update()' >
+  
+      <label for="fname">First Name</label>
+      <input type="text"  name='name' formControlName='name'>
+  
+      <label for="lname">phone</label>
+      <input type="text" name='phone' formControlName='phone' >
+
+      <button mat-raised-button color="primary" type = "submit">submit</button>
+  
+
+    </form>
+  </div>
+  

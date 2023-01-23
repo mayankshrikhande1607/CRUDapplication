@@ -1,0 +1,17 @@
+<button routerLink='' mat-raised-button color="warn">logout</button>
+<div class="container">
+    <h1>Demo form</h1>
+    <form (submit)="submit()">
+  
+      <label for="fname">First Name</label>
+      <input type="text"  name='name' [(ngModel)]='name'>
+  
+      <label for="lname">phone</label>
+      <input type="text" name='phone' [(ngModel)]='phone'>
+
+      <button mat-raised-button color="primary">submit</button>
+  
+
+    </form>
+  </div>
+  

@@ -1,0 +1,6 @@
+<h1>This is Parent Component</h1>
+<div *ngFor='let data of parentData'>
+    <app-child [hero]='data'(parentFunction)="parentFunction($event)"></app-child>
+    <h2>{{name}}</h2>
+
+</div>
